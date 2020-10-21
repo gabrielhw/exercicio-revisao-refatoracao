@@ -12,4 +12,3 @@ std::string Engenheiro::getNome(){
 int Engenheiro::getProjetos(){
   return _projetos; 
 }
-
