@@ -4,7 +4,7 @@
 
 class Vendedor : public Empregado {
 
-  private:
+  protected:
     double _quotaMensalVendas;
   public:
     Vendedor(std::string nome, double quotaMensalVendas,  double _salarioHora);
