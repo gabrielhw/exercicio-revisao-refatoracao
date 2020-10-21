@@ -8,9 +8,11 @@ class Empregado {
 	
   protected:
     double salarioHora;  
-    double quotaMensalVendas;  
+    double quotaMensalVendas;
+    std::string _nome;
   public:
     double pagamentoMes(double horasTrabalhadas);
+    std::string getNome();
 };
 
 #endif
