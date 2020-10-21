@@ -3,7 +3,7 @@
 
 int main() {
 
-  Engenheiro eng1 = Engenheiro("Joao Snow", 3, 35);
+  Engenheiro eng1("Joao Snow", 3, 35);
   std::cout << "Nome: " << eng1.getNome() << std::endl;
   std::cout << "Salario Mes: " << eng1.pagamentoMes(9.5) << std::endl;
   std::cout << "Projetos: " << eng1.getProjetos() << std::endl;
